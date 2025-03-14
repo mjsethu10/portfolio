@@ -5,14 +5,16 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #0a192f, #112240);
+    background: url('https://source.unsplash.com/1600x900/?business,technology') no-repeat center center fixed;
+    background-size: cover;
     color: #ffffff;
     text-align: center;
+    background-size: cover;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to right, #0056b3, #003d80);
+    background: rgba(0, 36, 82, 0.9);
     color: white;
     padding: 80px 20px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
@@ -29,32 +31,6 @@ body {
     font-weight: 300;
 }
 
-/* Navigation */
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    padding: 10px 15px;
-    transition: all 0.3s ease;
-}
-
-nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-}
-
 /* Sections */
 .section {
     padding: 50px 20px;
@@ -66,38 +42,6 @@ nav ul li a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     text-align: left;
     backdrop-filter: blur(8px);
-}
-
-/* Section Headings */
-.section h2 {
-    font-size: 2em;
-    color: #66d9ef;
-    border-bottom: 2px solid #66d9ef;
-    padding-bottom: 10px;
-    display: inline-block;
-}
-
-/* Experience Cards */
-.card {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    padding: 20px;
-    margin: 15px auto;
-    width: 60%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    text-align: left;
-}
-
-/* Contact Links */
-a {
-    color: #66d9ef;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 /* Footer */
